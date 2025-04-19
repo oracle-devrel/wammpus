@@ -1,3 +1,7 @@
+# Project Specific
+data
+.env
+
 # General
 .DS_Store
 .AppleDouble
