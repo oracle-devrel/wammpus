@@ -23,7 +23,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -34,7 +33,7 @@
     <img src="images/logo.png" alt="Logo">
   </a>
 
-<h3 align="center">dual-wordpress-phpmyadmin-podman</h3>
+<h3 align="center">WAMMPUS</h3>
 
   <p align="center">
     This project demonstrates using Podman to provision two stand-alone SSL-secured WordPress websites with different root domains on a single server.  Both websites will be backed by individual Oracle MySQL databases and phpMyAdmin interfaces.
@@ -78,11 +77,8 @@ Distributed under the GPL-3.0 license. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-Created by: Seth Lippman ([seth@unreled.com](mailto:seth@unreeled.com))<br>
+Created by: Seth Lippman ([seth@unreeled.com](mailto:seth@unreeled.com))<br>
 Check out some of my other projects - [where melodies meet algorithms.](https://slip.unreeled.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -96,8 +92,7 @@ Check out some of my other projects - [where melodies meet algorithms.](https://
 [issues-url]: https://github.com/slippman/dual-wordpress-phpmyadmin-podman/issues
 [license-shield]: https://img.shields.io/github/license/slippman/dual-wordpress-phpmyadmin-podman.svg?style=for-the-badge
 [license-url]: https://github.com/slippman/dual-wordpress-phpmyadmin-podman/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/sethlippman
+
 [product-screenshot]: images/screenshot.png
 [mysql]: https://img.shields.io/badge/MySQL-white?style=for-the-badge&logo=MySQL&logoSize=auto&labelColor=E9EBF0&color=%234479A1&logoSize=100
 [mysql-url]: https://mysql.com/
@@ -107,6 +102,26 @@ Check out some of my other projects - [where melodies meet algorithms.](https://
 [phpmyadmin-url]: https://phpmyadmin.net/
 [podman]: https://img.shields.io/badge/podman-%23892CA0?style=for-the-badge&logo=podman&logoColor=%23892CA0&labelColor=E9EBF0&logoSize=100
 [podman-url]: https://podman.io/
+
+
+## Contributing
+
+This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md)
+
+
+## Security
+
+Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
+
+
+## License
+
+Copyright (c) 2025 Oracle and/or its affiliates.
+
+Released under the Universal Permissive License v1.0 as shown at
+<https://oss.oracle.com/licenses/upl/>.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ORACLE AND ITS AFFILIATES DO NOT PROVIDE ANY WARRANTY WHATSOEVER, EXPRESS OR IMPLIED, FOR ANY SOFTWARE, MATERIAL OR CONTENT OF ANY KIND CONTAINED OR PRODUCED WITHIN THIS REPOSITORY, AND IN PARTICULAR SPECIFICALLY DISCLAIM ANY AND ALL IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE.  FURTHERMORE, ORACLE AND ITS AFFILIATES DO NOT REPRESENT THAT ANY CUSTOMARY SECURITY REVIEW HAS BEEN PERFORMED WITH RESPECT TO ANY SOFTWARE, MATERIAL OR CONTENT CONTAINED OR PRODUCED WITHIN THIS REPOSITORY. IN ADDITION, AND WITHOUT LIMITING THE FOREGOING, THIRD PARTIES MAY HAVE POSTED SOFTWARE, MATERIAL OR CONTENT TO THIS REPOSITORY WITHOUT ANY REVIEW. USE AT YOUR OWN RISK. 
 
