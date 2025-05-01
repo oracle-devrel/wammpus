@@ -73,7 +73,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 ## License
-Distributed under the GPL-3.0 license. See `LICENSE` for more information.
+Distributed under the UPL-1.0 license. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
