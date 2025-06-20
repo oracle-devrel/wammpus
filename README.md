@@ -1,41 +1,124 @@
-# TITLE
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-[![License: UPL](https://img.shields.io/badge/license-UPL-green)](https://img.shields.io/badge/license-UPL-green) [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=oracle-devrel_test)](https://sonarcloud.io/dashboard?id=oracle-devrel_test)
 
-## THIS IS A NEW, BLANK REPO THAT IS NOT READY FOR USE YET.  PLEASE CHECK BACK SOON!
 
-## Introduction
-MISSING
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/slippman/dual-wordpress-phpmyadmin-podman">
+    <img src="images/logo.png" alt="Logo">
+  </a>
+
+<h3 align="center">WAMMPUS</h3>
+
+  <p align="center">
+    This project demonstrates using Podman to provision two stand-alone SSL-secured WordPress websites with different root domains on a single server.  Both websites will be backed by individual Oracle MySQL databases and phpMyAdmin interfaces.
+    <br />
+    <a href="https://slip.unreeled.com/2025/04/18/use-podman-to-provision-multiple-wordpress-websites-on-a-single-server//"><strong>Explore the docs »</strong></a>
+    <br />
+<a href="https://github.com/slippman/dual-wordpress-phpmyadmin-podman/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/slippman/dual-wordpress-phpmyadmin-podman/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
-MISSING
+Please take a look at <a href="https://slip.unreeled.com/2025/04/18/use-podman-to-provision-multiple-wordpress-websites-on-a-single-server/">this blog post</a> for comprehensive usage details.<br>
 
-### Prerequisites
-MISSING
+In the future, I'll probably add more detail to this `README` file. In the mean time, feel free to <a href="#Contributing">contribute </a> any updates that you think would benefit the project to the `README` or codebase! 
 
-## Notes/Issues
-MISSING
+### Built With
 
-## URLs
-* Nothing at this time
+* [![Wordpress][wordpress]][wordpress-url]
+* [![MySql][mysql]][mysql-url]
+* [![phpMyAdmin][phpmyadmin]][phpmyadmin-url]
+* [![Podman][podman]][podman-url]
+
+<!-- CONTRIBUTING -->
+<a name="Contributing"></a>
+## Contributing
+
+This project is a work in progress. Any contributions you make are **greatly appreciated**. If you have a suggestion to improve the code, please fork the repo and create a pull request.<br>
+
+You can also open an issue with the tag "enhancement." I have a few of my own that I will be adding soon!
+
+
+Don't forget to give the project a star! Thanks again!
+
+<!-- LICENSE -->
+## License
+Distributed under the UPL-1.0 license. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+Created by: Seth Lippman ([seth@unreeled.com](mailto:seth@unreeled.com))<br>
+Check out some of my other projects - [where melodies meet algorithms.](https://slip.unreeled.com)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/slippman/dual-wordpress-phpmyadmin-podman.svg?style=for-the-badge
+[contributors-url]: https://github.com/slippman/dual-wordpress-phpmyadmin-podman/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/slippman/dual-wordpress-phpmyadmin-podman.svg?style=for-the-badge
+[forks-url]: https://github.com/slippman/dual-wordpress-phpmyadmin-podman/network/members
+[stars-shield]: https://img.shields.io/github/stars/slippman/dual-wordpress-phpmyadmin-podman.svg?style=for-the-badge
+[stars-url]: https://github.com/slippman/dual-wordpress-phpmyadmin-podman/stargazers
+[issues-shield]: https://img.shields.io/github/issues/slippman/dual-wordpress-phpmyadmin-podman.svg?style=for-the-badge
+[issues-url]: https://github.com/slippman/dual-wordpress-phpmyadmin-podman/issues
+[license-shield]: https://img.shields.io/github/license/slippman/dual-wordpress-phpmyadmin-podman.svg?style=for-the-badge
+[license-url]: https://github.com/slippman/dual-wordpress-phpmyadmin-podman/blob/master/LICENSE
+
+[product-screenshot]: images/screenshot.png
+[mysql]: https://img.shields.io/badge/MySQL-white?style=for-the-badge&logo=MySQL&logoSize=auto&labelColor=E9EBF0&color=%234479A1&logoSize=100
+[mysql-url]: https://mysql.com/
+[wordpress]: https://img.shields.io/badge/wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=%2321759B&labelColor=E9EBF0&logoSize=100
+[wordpress-url]: https://wordpress.com/
+[phpmyadmin]: https://img.shields.io/badge/phpmyadmin-%236C78AF?style=for-the-badge&logo=phpmyadmin&logoColor=%236C78AF&labelColor=E9EBF0&logoSize=100
+[phpmyadmin-url]: https://phpmyadmin.net/
+[podman]: https://img.shields.io/badge/podman-%23892CA0?style=for-the-badge&logo=podman&logoColor=%23892CA0&labelColor=E9EBF0&logoSize=100
+[podman-url]: https://podman.io/
+
 
 ## Contributing
-<!-- If your project has specific contribution requirements, update the
-    CONTRIBUTING.md file to ensure those requirements are clearly explained. -->
 
-This project welcomes contributions from the community. Before submitting a pull
-request, please [review our contribution guide](./CONTRIBUTING.md).
+This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md)
+
 
 ## Security
 
-Please consult the [security guide](./SECURITY.md) for our responsible security
-vulnerability disclosure process.
+Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
+
 
 ## License
-Copyright (c) 2024 Oracle and/or its affiliates.
 
-Licensed under the Universal Permissive License (UPL), Version 1.0.
+Copyright (c) 2025 Oracle and/or its affiliates.
 
-See [LICENSE](LICENSE.txt) for more details.
+Released under the Universal Permissive License v1.0 as shown at
+<https://oss.oracle.com/licenses/upl/>.
 
-ORACLE AND ITS AFFILIATES DO NOT PROVIDE ANY WARRANTY WHATSOEVER, EXPRESS OR IMPLIED, FOR ANY SOFTWARE, MATERIAL OR CONTENT OF ANY KIND CONTAINED OR PRODUCED WITHIN THIS REPOSITORY, AND IN PARTICULAR SPECIFICALLY DISCLAIM ANY AND ALL IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE.  FURTHERMORE, ORACLE AND ITS AFFILIATES DO NOT REPRESENT THAT ANY CUSTOMARY SECURITY REVIEW HAS BEEN PERFORMED WITH RESPECT TO ANY SOFTWARE, MATERIAL OR CONTENT CONTAINED OR PRODUCED WITHIN THIS REPOSITORY. IN ADDITION, AND WITHOUT LIMITING THE FOREGOING, THIRD PARTIES MAY HAVE POSTED SOFTWARE, MATERIAL OR CONTENT TO THIS REPOSITORY WITHOUT ANY REVIEW. USE AT YOUR OWN RISK. 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
