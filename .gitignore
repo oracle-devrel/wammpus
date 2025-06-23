@@ -1,14 +1,24 @@
-# General
+# Project Files
+data
+.env
+
+# VS Code
+.vscode/
+.history/
+
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
 Icon
-
-
-# Thumbnails
 ._*
+.Spotlight-V100
+.Trashes
+.com.apple.timemachine.donotpresent
+
+# Windows
+Desktop.ini
+Thumbs.db
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
